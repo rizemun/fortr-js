@@ -1,0 +1,13 @@
+ PROGRAM NDIGITS
+ INTEGER VALUE, L, LEN
+ CHARACTER(LEN=24) MESSAGE
+ MESSAGE = “Length of the value is: ”
+ PRINT *, “Type in integer value:”
+ READ(*, *) VALUE 
+ L = 0
+ DO WHILE(VALUE.NE.0)
+ L = L + 1
+ VALUE = VALUE / 10
+ END DO
+ PRINT *, MESSAGE, L
+ END 

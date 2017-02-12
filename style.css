@@ -1,0 +1,10 @@
+html,body{
+    background-color:#cbc;
+    background-image: url(bg2.jpg);
+}
+div{
+    background-color:#cbc;
+}
+.table{
+    float:left;
+}

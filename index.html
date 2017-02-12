@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Лексический анализатор</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body onload="createTable()">
+<div style="float:left; border:dotted 1px #fff">
+    <textarea id="fromField" cols="40" rows="20"></textarea>
+    <input type="button" value="Вычислить лексемы" style="display:block;" onclick="showTables()">
+    <input type="file" id="myfile">
+    <input type="button" onclick="createTable()">
+</div>
+<div style="float:left">
+    <canvas id="canvas" height="500" width="800">Обновите браузер!</canvas>
+</div>
+<div style="float:left; border:dotted 1px #fff">
+    <div id="table" class="table"></div>
+    <div id="table1" class="table"></div>
+    <div id="table2" class="table"></div>
+    <div id="table3" class="table"></div>
+    <div id="table4" class="table"></div>
+</div>
+<div style="clear:left; float:left;">
+    <div id="table5" class="table"></div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
